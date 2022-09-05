@@ -1,0 +1,25 @@
+.custom-container-lesson{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.custom-block-1{
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+
+.custom-block-2 .course-item-meta{
+  position: relative !important;
+  top: unset !important;
+}
+
+.custom-link-container{
+  margin-left: 1rem;
+}
+
+.custom-link-container p {
+  font-weight: bold;
+}
