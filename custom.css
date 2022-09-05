@@ -23,3 +23,18 @@
 .custom-link-container p {
   font-weight: bold;
 }
+
+.contattami-container{
+  display: flex;
+  align-items: flex-start !important;
+  min-height: 1060px;
+  justify-content: flex-end !important;
+  position: relative !important;
+}
+
+.contattami-container >div {
+  width: 800px;
+  margin: 0 !important;
+  margin-top: 115px !important;
+  height: max-content;
+}
