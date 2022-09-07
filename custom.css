@@ -49,3 +49,8 @@ div.wpforms-container-full .wpforms-form button[type=submit] {
     width: 15rem;
     border-radius: 1rem;
 }
+
+.color-red,
+.color-red.all *{
+    color: #ff1616 !important;
+}
