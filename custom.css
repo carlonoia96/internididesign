@@ -1,40 +1,51 @@
-.custom-container-lesson{
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  flex-direction: row;
+.custom-container-lesson {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
 }
 
-.custom-block-1{
-  display: flex;
-  align-items: center;
-  flex-direction: row;
+.custom-block-1 {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
 }
 
-.custom-block-2 .course-item-meta{
-  position: relative !important;
-  top: unset !important;
+.custom-block-2 .course-item-meta {
+    position: relative !important;
+    top: unset !important;
 }
 
-.custom-link-container{
-  margin-left: 1rem;
+.custom-link-container {
+    margin-left: 1rem;
 }
 
 .custom-link-container p {
-  font-weight: bold;
+    font-weight: bold;
 }
 
-.contattami-container{
-  display: flex;
-  align-items: flex-start !important;
-  min-height: 1060px;
-  justify-content: flex-end !important;
-  position: relative !important;
+.contattami-container {
+    display: flex;
+    align-items: flex-start !important;
+    min-height: 1060px;
+    justify-content: flex-end !important;
+    position: relative !important;
 }
 
-.contattami-container >div {
-  width: 800px;
-  margin: 0 !important;
-  margin-top: 115px !important;
-  height: max-content;
+.contattami-container > div {
+    width: 800px;
+    margin: 0 !important;
+    margin-top: 115px !important;
+    height: max-content;
+}
+
+div.wpforms-container-full .wpforms-form label.wpforms-error {
+    color: #ff1616 !important;
+}
+
+div.wpforms-container-full .wpforms-form button[type=submit] {
+    background-color: #ff1616 !important;
+    color: white !important;
+    width: 15rem;
+    border-radius: 1rem;
 }
