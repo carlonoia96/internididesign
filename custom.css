@@ -1,56 +1,82 @@
 .custom-container-lesson {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    flex-direction: row;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
 }
 
 .custom-block-1 {
-    display: flex;
-    align-items: center;
-    flex-direction: row;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
 }
 
 .custom-block-2 .course-item-meta {
-    position: relative !important;
-    top: unset !important;
+  position: relative !important;
+  top: unset !important;
 }
 
 .custom-link-container {
-    margin-left: 1rem;
+  margin-left: 1rem;
 }
 
 .custom-link-container p {
-    font-weight: bold;
+  font-weight: bold;
 }
 
 .contattami-container {
-    display: flex;
-    align-items: flex-start !important;
-    min-height: 1060px;
-    justify-content: flex-end !important;
-    position: relative !important;
+  display: flex;
+  align-items: flex-start !important;
+  min-height: 1060px;
+  justify-content: flex-end !important;
+  position: relative !important;
 }
 
 .contattami-container > div {
-    width: 800px;
-    margin: 0 !important;
-    margin-top: 115px !important;
-    height: max-content;
+  width: 800px;
+  margin: 0 !important;
+  margin-top: 115px !important;
+  height: max-content;
 }
 
 div.wpforms-container-full .wpforms-form label.wpforms-error {
-    color: #ff1616 !important;
+  color: #ff1616 !important;
 }
 
 div.wpforms-container-full .wpforms-form button[type=submit] {
-    background-color: #ff1616 !important;
-    color: white !important;
-    width: 15rem;
-    border-radius: 1rem;
+  background-color: #ff1616 !important;
+  color: white !important;
+  width: 15rem;
+  border-radius: 1rem;
 }
 
 .color-red,
-.color-red.all *{
-    color: #ff1616 !important;
+.color-red.all * {
+  color: #ff1616 !important;
+}
+
+@media (max-width: 480px){
+    .width-logo > a {
+        width: 90px !important;
+    }
+    .elementor-4520 .elementor-element.elementor-element-6c96b98:not(.elementor-motion-effects-element-type-background), .elementor-4520 .elementor-element.elementor-element-6c96b98 > .elementor-motion-effects-container > .elementor-motion-effects-layer {
+        background-position: top left !important;
+        padding-top: 220px !important;
+        background-size: 800px !important;
+        margin-top: -30px !important;
+    }
+    .elementor-4520 .elementor-element.elementor-element-77a84f5:not(.elementor-motion-effects-element-type-background), .elementor-4520 .elementor-element.elementor-element-77a84f5 > .elementor-motion-effects-container > .elementor-motion-effects-layer {
+        background-size: 870px !important;
+        background-position: bottom left !important;
+        height: 900px !important;
+        padding-bottom: 300px !important;
+    }
+    .elementor-4520 .elementor-element.elementor-element-fb8cd00:not(.elementor-motion-effects-element-type-background), .elementor-4520 .elementor-element.elementor-element-fb8cd00 > .elementor-motion-effects-container > .elementor-motion-effects-layer {
+        height: 380px !important;
+        background-size: cover !important;
+    }
+    .elementor-4520 .elementor-element.elementor-element-55527d1 .wrapper-box-icon .boxes-icon,
+    .elementor-4520 .elementor-element.elementor-element-a99dba4 .wrapper-box-icon .boxes-icon {
+        font-size: 60px !important;
+    }
 }
