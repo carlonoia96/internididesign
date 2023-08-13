@@ -80,6 +80,11 @@ div.wpforms-container-full .wpforms-form button[type=submit] {
     padding-top: 45px;
 }
 
+.footer .container{
+    max-width: unset;
+    padding: 0;
+}
+
 @media (max-width: 480px) {
     .width-logo > a {
         width: 90px !important;
